@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111;
+}
+#clock{
+    height: 57vh;
+    margin: 44px 503px;
+    border-radius: 57vh;
+}
+.arrow {
+    position: absolute;
+    /* border: 2px solid; */
+    height: 28vh;
+    top: 140px;
+    left: 595px;
+    /* transition: all 0.3s; */
+}
+#hour {
+    height: 14vh;
+    top: 184px;
+    left: 640px;
+    transform: rotate(-45deg);
+    background-color: none;
+    transition: all 1s;
+
+}
+#minute {
+    transform: rotate(-2deg);
+    background-color: none;
+    transition: all 0.3s;
+
+}
+#second{
+    transition: all 1s;
+    background-color: none;
+}
